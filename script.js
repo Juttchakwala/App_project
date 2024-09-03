@@ -25,7 +25,7 @@ async function checkIP() {
     if (registeredIPs.includes(userIP)) {
         messageElement.textContent = "You are registered!";
     } else {
-        messageElement.textContent = "You are not registered.";
+        messageElement.textContent = "You are not good.";
     }
 }
 
